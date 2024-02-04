@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { ICidade } from "./cidade.model";
+import { ICidade } from "../cidade.model";
 import { StatusCodes } from "http-status-codes";
 
 export const update = (req: Request<object, object, ICidade>, res: Response) => {

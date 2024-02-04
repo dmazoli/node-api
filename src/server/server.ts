@@ -1,9 +1,10 @@
 import express from "express";
 import "dotenv/config";
+import "./shared/services/yup-transalation";
 
 import { CoreRouter } from "./routes";
 import { ControllerRoutes } from "./controllers/routes";
-import { RequestInfo } from "./middlewares";
+import { RequestInfo } from "./shared/middlewares";
 
 const Server = express();
 

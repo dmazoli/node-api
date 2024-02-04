@@ -1,6 +1,6 @@
 export interface ICidade {
-    id?: number
-    name: string
-    state: string
-    country: string
+    id?: string;
+    name: string;
+    state: string;
+    country: string;
 }
