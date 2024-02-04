@@ -8,9 +8,7 @@ import { RequestInfo } from "./middlewares";
 const Server = express();
 
 // Middlewares
-// Server.use(express.json);
-// Server.use(express.raw);
-// Server.use(express.text);
+Server.use(express.json());
 if (process.env.DEV) Server.use(RequestInfo);
 
 // Router config
